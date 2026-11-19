@@ -1,0 +1,8 @@
+{
+  "name": "Sumatif Akhir Semester IPAS ",
+  "description": "Aplikasi Tes Sumatif IPAS Kelas VI SD Negeri Budeng, sinkronisasi Google Spreadsheet, unduh PDF naskah \u0026 hasil tes, serta panel guru.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

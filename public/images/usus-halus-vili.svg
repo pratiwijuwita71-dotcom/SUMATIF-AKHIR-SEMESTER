@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <defs>
+    <style>
+      .title { font: 700 16px 'Plus Jakarta Sans', Arial, sans-serif; fill: #0f172a; }
+      .sub { font: 500 11px 'Plus Jakarta Sans', Arial, sans-serif; fill: #475569; }
+      .lbl { font: 700 12px 'Plus Jakarta Sans', Arial, sans-serif; fill: #1e293b; }
+      .lbl2 { font: 600 11px 'Plus Jakarta Sans', Arial, sans-serif; fill: #b91c1c; }
+    </style>
+  </defs>
+  <rect width="600" height="320" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="300" y="30" text-anchor="middle" class="title">Penampang Dinding Bagian Dalam Usus Halus (Vili / Jonjot Usus)</text>
+  <text x="300" y="48" text-anchor="middle" class="sub">Permukaan berlipat-lipat dengan tonjolan halus dan pembuluh kapiler darah</text>
+
+  <!-- Dasar dinding usus -->
+  <rect x="60" y="245" width="480" height="32" rx="6" fill="#fbcfe8" stroke="#be185d" stroke-width="2"/>
+  <!-- Tonjolan vili (4 tonjolan besar) -->
+  <path d="M60,245 L80,245 C90,245 92,105 120,105 C148,105 150,245 160,245 L195,245 C205,245 207,95 235,95 C263,95 265,245 275,245 L310,245 C320,245 322,95 350,95 C378,95 380,245 390,245 L425,245 C435,245 437,105 465,105 C493,105 495,245 505,245 L540,245"
+        fill="#f9a8d4" stroke="#be185d" stroke-width="2.5"/>
+
+  <!-- Kapiler darah dalam vili -->
+  <path d="M110,255 L110,130 C110,118 130,118 130,130 L130,255" fill="none" stroke="#dc2626" stroke-width="3.5"/>
+  <path d="M225,255 L225,120 C225,108 245,108 245,120 L245,255" fill="none" stroke="#dc2626" stroke-width="3.5"/>
+  <path d="M340,255 L340,120 C340,108 360,108 360,120 L360,255" fill="none" stroke="#dc2626" stroke-width="3.5"/>
+  <path d="M455,255 L455,130 C455,118 475,118 475,130 L475,255" fill="none" stroke="#dc2626" stroke-width="3.5"/>
+
+  <!-- Partikel sari makanan & panah masuk ke pembuluh darah -->
+  <circle cx="178" cy="110" r="6" fill="#f59e0b"/>
+  <circle cx="292" cy="100" r="6" fill="#10b981"/>
+  <circle cx="408" cy="112" r="6" fill="#3b82f6"/>
+  <path d="M178,124 L214,142" stroke="#0f172a" stroke-width="2" marker-end="url(#arr)"/>
+  <path d="M292,115 L328,136" stroke="#0f172a" stroke-width="2"/>
+  <polygon points="214,142 204,142 208,134" fill="#0f172a"/>
+  <polygon points="328,136 318,136 322,128" fill="#0f172a"/>
+
+  <!-- Label penjelas -->
+  <text x="178" y="88" text-anchor="middle" class="lbl">Sari-sari Makanan</text>
+  <text x="300" y="298" text-anchor="middle" class="lbl2">Pembuluh Kapiler Darah (Mengedarkan Sari Makanan ke Seluruh Tubuh)</text>
+  <line x1="465" y1="105" x2="515" y2="82" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="520" y="85" class="lbl">Jonjot Usus (Vili)</text>
+</svg>

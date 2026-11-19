@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <defs>
+    <style>
+      .title { font: 700 16px 'Plus Jakarta Sans', Arial, sans-serif; fill: #0f172a; }
+      .sub { font: 500 11px 'Plus Jakarta Sans', Arial, sans-serif; fill: #475569; }
+      .num { font: 800 14px 'Plus Jakarta Sans', Arial, sans-serif; fill: #ffffff; }
+      .callout { stroke: #1e293b; stroke-width: 1.8; fill: none; }
+      .badge { fill: #0284c7; stroke: #ffffff; stroke-width: 2; }
+    </style>
+  </defs>
+  <rect width="640" height="480" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="320" y="30" text-anchor="middle" class="title">Sistem Pernapasan Manusia</text>
+  <text x="320" y="48" text-anchor="middle" class="sub">Perhatikan nomor organ (1 s.d. 7) sesuai garis penunjuk</text>
+
+  <!-- Siluet kepala & dada -->
+  <path d="M258,76 C265,64 315,64 322,88 L325,112 L344,126 L336,136 L338,152 L322,164 L322,190 C372,198 418,236 424,295 L428,405 L212,405 L216,295 C222,236 268,198 308,190 L308,158"
+        fill="#e0f2fe" fill-opacity="0.5" stroke="#0369a1" stroke-width="2" stroke-opacity="0.35"/>
+
+  <!-- 1. Rongga Hidung -->
+  <path d="M335,126 C325,120 302,120 296,128 L296,144 C308,144 322,140 330,136 Z" fill="#fb7185" stroke="#be123c" stroke-width="1.8"/>
+
+  <!-- 2. Faring & Laring -->
+  <rect x="292" y="138" width="16" height="36" rx="4" fill="#fda4af" stroke="#be123c" stroke-width="1.8"/>
+
+  <!-- 3. Trakea (Cincin tulang rawan) -->
+  <rect x="291" y="174" width="18" height="68" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+  <g stroke="#64748b" stroke-width="2">
+    <line x1="292" y1="184" x2="308" y2="184"/>
+    <line x1="292" y1="194" x2="308" y2="194"/>
+    <line x1="292" y1="204" x2="308" y2="204"/>
+    <line x1="292" y1="214" x2="308" y2="214"/>
+    <line x1="292" y1="224" x2="308" y2="224"/>
+    <line x1="292" y1="234" x2="308" y2="234"/>
+  </g>
+
+  <!-- 6. Paru-paru kanan & kiri -->
+  <path d="M286,216 C250,214 226,258 226,318 C226,350 245,368 282,362 C292,358 292,262 286,216 Z" fill="#fda4af" fill-opacity="0.72" stroke="#e11d48" stroke-width="2.2"/>
+  <path d="M314,216 C350,214 374,258 374,318 C374,350 355,368 318,362 C308,358 308,262 314,216 Z" fill="#fda4af" fill-opacity="0.72" stroke="#e11d48" stroke-width="2.2"/>
+
+  <!-- 4. Bronkus -->
+  <path d="M295,242 L262,272 M305,242 L338,272" stroke="#475569" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- 5. Bronkiolus & cabang alveolus -->
+  <path d="M262,272 L244,296 M262,272 L266,308 M338,272 L356,296 M338,272 L334,308" stroke="#64748b" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="242" cy="300" r="5" fill="#fecdd3" stroke="#be123c" stroke-width="1.4"/>
+  <circle cx="266" cy="312" r="5" fill="#fecdd3" stroke="#be123c" stroke-width="1.4"/>
+  <circle cx="358" cy="300" r="5" fill="#fecdd3" stroke="#be123c" stroke-width="1.4"/>
+  <circle cx="334" cy="312" r="5" fill="#fecdd3" stroke="#be123c" stroke-width="1.4"/>
+
+  <!-- 7. Diafragma -->
+  <path d="M222,380 C260,356 340,356 378,380 C376,392 340,376 300,376 C260,376 224,392 222,380 Z" fill="#ea580c" stroke="#9a3412" stroke-width="2"/>
+
+  <!-- Garis Penunjuk & Nomor -->
+  <!-- 1: Rongga Hidung -->
+  <line x1="322" y1="128" x2="495" y2="112" class="callout"/>
+  <circle cx="322" cy="128" r="3.5" fill="#1e293b"/>
+  <circle cx="510" cy="112" r="15" class="badge"/>
+  <text x="510" y="117" text-anchor="middle" class="num">1</text>
+
+  <!-- 2: Faring / Laring -->
+  <line x1="292" y1="156" x2="145" y2="142" class="callout"/>
+  <circle cx="292" cy="156" r="3.5" fill="#1e293b"/>
+  <circle cx="130" cy="142" r="15" class="badge"/>
+  <text x="130" y="147" text-anchor="middle" class="num">2</text>
+
+  <!-- 3: Trakea -->
+  <line x1="291" y1="204" x2="145" y2="204" class="callout"/>
+  <circle cx="291" cy="204" r="3.5" fill="#1e293b"/>
+  <circle cx="130" cy="204" r="15" class="badge"/>
+  <text x="130" y="209" text-anchor="middle" class="num">3</text>
+
+  <!-- 4: Bronkus -->
+  <line x1="328" y1="262" x2="495" y2="215" class="callout"/>
+  <circle cx="328" cy="262" r="3.5" fill="#1e293b"/>
+  <circle cx="510" cy="215" r="15" class="badge"/>
+  <text x="510" y="220" text-anchor="middle" class="num">4</text>
+
+  <!-- 5: Bronkiolus -->
+  <line x1="350" y1="288" x2="495" y2="288" class="callout"/>
+  <circle cx="350" cy="288" r="3.5" fill="#1e293b"/>
+  <circle cx="510" cy="288" r="15" class="badge"/>
+  <text x="510" y="293" text-anchor="middle" class="num">5</text>
+
+  <!-- 6: Paru-paru & Alveolus -->
+  <line x1="242" y1="300" x2="145" y2="300" class="callout"/>
+  <circle cx="242" cy="300" r="3.5" fill="#1e293b"/>
+  <circle cx="130" cy="300" r="15" class="badge"/>
+  <text x="130" y="305" text-anchor="middle" class="num">6</text>
+
+  <!-- 7: Diafragma -->
+  <line x1="342" y1="372" x2="495" y2="388" class="callout"/>
+  <circle cx="342" cy="372" r="3.5" fill="#1e293b"/>
+  <circle cx="510" cy="388" r="15" class="badge"/>
+  <text x="510" y="393" text-anchor="middle" class="num">7</text>
+</svg>

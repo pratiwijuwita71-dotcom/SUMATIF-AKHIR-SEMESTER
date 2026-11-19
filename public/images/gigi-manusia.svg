@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <defs>
+    <style>
+      .title { font: 700 16px 'Plus Jakarta Sans', Arial, sans-serif; fill: #0f172a; }
+      .sub { font: 500 11px 'Plus Jakarta Sans', Arial, sans-serif; fill: #475569; }
+      .num { font: 800 14px 'Plus Jakarta Sans', Arial, sans-serif; fill: #ffffff; }
+      .desc { font: 600 12px 'Plus Jakarta Sans', Arial, sans-serif; fill: #334155; }
+      .badge { fill: #1d4ed8; stroke: #ffffff; stroke-width: 2; }
+    </style>
+  </defs>
+  <rect width="600" height="320" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="300" y="30" text-anchor="middle" class="title">Tiga Jenis Gigi Utama pada Manusia</text>
+  <text x="300" y="48" text-anchor="middle" class="sub">Amati perbedaan bentuk mahkota gigi nomor 1, 2, dan 3</text>
+
+  <!-- Panel 1: Gigi Seri (berbentuk pahat/pipih) -->
+  <g transform="translate(45, 72)">
+    <rect width="150" height="215" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M56,145 L52,190 C52,196 62,196 65,180 L75,145 L85,180 C88,196 98,196 98,190 L94,145 Z" fill="#fde68a" stroke="#b45309" stroke-width="1.8"/>
+    <path d="M46,80 C46,66 104,66 104,80 L100,138 C98,148 52,148 50,138 Z" fill="#ffffff" stroke="#64748b" stroke-width="2.5"/>
+    <rect x="44" y="132" width="62" height="14" rx="7" fill="#fda4af" fill-opacity="0.65"/>
+    <circle cx="75" cy="30" r="16" class="badge"/>
+    <text x="75" y="35" text-anchor="middle" class="num">1</text>
+    <text x="75" y="208" text-anchor="middle" class="desc">Bentuk Pipih / Pahat</text>
+  </g>
+
+  <!-- Panel 2: Gigi Taring (runcing) -->
+  <g transform="translate(225, 72)">
+    <rect width="150" height="215" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M58,145 L68,194 C71,200 79,200 82,194 L92,145 Z" fill="#fde68a" stroke="#b45309" stroke-width="1.8"/>
+    <path d="M75,60 L102,115 C103,132 96,144 75,144 C54,144 47,132 48,115 Z" fill="#ffffff" stroke="#64748b" stroke-width="2.5"/>
+    <rect x="44" y="132" width="62" height="14" rx="7" fill="#fda4af" fill-opacity="0.65"/>
+    <circle cx="75" cy="30" r="16" class="badge"/>
+    <text x="75" y="35" text-anchor="middle" class="num">2</text>
+    <text x="75" y="208" text-anchor="middle" class="desc">Ujung Runcing</text>
+  </g>
+
+  <!-- Panel 3: Gigi Geraham (permukaan lebar bergelombang) -->
+  <g transform="translate(405, 72)">
+    <rect width="150" height="215" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    <path d="M44,142 L40,190 C40,196 52,196 56,178 L75,152 L94,178 C98,196 110,196 110,190 L106,142 Z" fill="#fde68a" stroke="#b45309" stroke-width="1.8"/>
+    <path d="M36,92 C36,78 52,75 62,84 C70,74 80,74 88,84 C98,75 114,78 114,92 L110,136 C108,146 42,146 40,136 Z" fill="#ffffff" stroke="#64748b" stroke-width="2.5"/>
+    <rect x="36" y="132" width="78" height="14" rx="7" fill="#fda4af" fill-opacity="0.65"/>
+    <circle cx="75" cy="30" r="16" class="badge"/>
+    <text x="75" y="35" text-anchor="middle" class="num">3</text>
+    <text x="75" y="208" text-anchor="middle" class="desc">Permukaan Lebar &amp; Rata</text>
+  </g>
+</svg>
